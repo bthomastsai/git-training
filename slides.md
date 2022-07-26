@@ -313,6 +313,10 @@ Get a copy of an existing Git repository.
 
 This command copies the .git directory of a remote Git repository to your local disk and checks out a working copy of the latest version of the default branch.
 
+## `git clone --single-branch -b <branch_name> <URL>`
+
+Just clone a specific branch of an existing Git repository.
+  
 ---
 
 ## `git diff`
